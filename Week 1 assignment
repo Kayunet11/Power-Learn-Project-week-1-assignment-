@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lists and Form</title>
+</head>
+<body>
+
+<h1>HTML Lists</h1>
+
+<h2>Ordered List (OL)</h2>
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+<h2>Unordered List (UL)</h2>
+<ul>
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
+</ul>
+
+<h2>Definition List (DL)</h2>
+<dl>
+  <dt>Term 1</dt>
+  <dd>Description 1</dd>
+  <dt>Term 2</dt>
+  <dd>Description 2</dd>
+  <dt>Term 3</dt>
+  <dd>Description 3</dd>
+</dl>
+
+<h1>User Data Form</h1>
+
+<form>
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="email" name="email"><br>
+  
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
